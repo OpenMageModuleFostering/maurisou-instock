@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>maurisou-instock</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license>ASL</license>
     <channel>community</channel>
     <extends/>
     <summary>Put stock levels status back to in stock when quantity is greater than 0.</summary>
     <description>Put stock levels status back to in stock when quantity is greater than 0.</description>
-    <notes>Initial release - packaging corrected</notes>
+    <notes>Fixed community channel install bug</notes>
     <authors><author><name>Manesh Sonah</name><user>maurisource</user><email>info@maurisource.com</email></author></authors>
-    <date>2016-06-27</date>
-    <time>14:56:09</time>
-    <contents><target name="magelocal"><dir name="Maurisource"><dir name="InStock"><dir><dir name="Model"><file name="Observer.php" hash="894bf582fbfae69a2921797b118121ff"/></dir><dir name="etc"><file name="config.xml" hash="444218d145bb20c3ddb7ad67472d4198"/></dir></dir></dir></dir><dir name="Model"><file name="Observer.php" hash=""/></dir><dir name="etc"><file name="config.xml" hash=""/></dir></target><target name="mageetc"><dir name="modules"><file name="Maurisource_InStock.xml" hash="2b7a8fa6735c74fee518371e185fdd94"/></dir></target></contents>
+    <date>2016-07-08</date>
+    <time>18:01:38</time>
+    <contents><target name="magelocal"><dir name="Maurisource"><dir name="InStock"><dir><dir name="Model"><file name="Observer.php" hash="894bf582fbfae69a2921797b118121ff"/></dir><dir name="etc"><file name="config.xml" hash="444218d145bb20c3ddb7ad67472d4198"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Maurisource_InStock.xml" hash="2b7a8fa6735c74fee518371e185fdd94"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
