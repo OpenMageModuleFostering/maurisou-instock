@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Maurisource_InStock>
+            <version>1.0.0</version>
+        </Maurisource_InStock>
+    </modules>
+    <global>
+        <models>
+            <maurisource_instock>
+                <class>Maurisource_InStock_Model</class>
+            </maurisource_instock>
+        </models>
+    </global>
+    <adminhtml>
+        <events>
+            <catalog_product_save_after><!-- observe the event -->
+                <observers>
+                    <maurisource_instock>
+                        <class>maurisource_instock/observer</class>
+                        <method>catalog_product_save_after</method>
+                    </maurisource_instock>
+                </observers>
+            </catalog_product_save_after>
+        </events>
+    </adminhtml>
+</config>
