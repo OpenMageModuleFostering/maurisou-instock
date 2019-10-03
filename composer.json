@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/maurisou-instock",
+    "name": "OpenMageModuleFostering\/maurisou-instock",
     "type": "magento-module",
     "license": "ASL",
     "homepage": "",
     "description": "Put stock levels status back to in stock when quantity is greater than 0.",
     "authors": [
-    {
-        "name": "Manesh Sonah",
-        "email": "info@maurisource.com"
-    }
-],
+        {
+            "name": "Manesh Sonah",
+            "email": "info@maurisource.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
